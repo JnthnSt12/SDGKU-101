@@ -1,0 +1,165 @@
+/* this is external css */
+:root{
+    --main-color: #2d94d1;
+    --second-color: #f8c44f;
+    --main-color-dark: #23709c;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* global */
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #81caee;
+}
+img{
+    width: 20%; /* this line resize the image*/
+}
+main{
+    height: 50vh;
+}
+footer{
+    background-color: var(--main-color-dark);
+    text-align: center;
+    color: white;
+    margin-top: 480px;
+    height: 10vh;
+}
+/* header */
+header{
+    background-image: url(http://www.scifipharmacistguy.com/wp-content/uploads/2019/06/fb-6.png
+    );
+    height: 48vh;
+    background-position: center center;
+    background-size: cover;
+    background-size: 55%;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+h1{
+    font-size: 35px;
+    color: var(--second-color);
+    text-align: center;
+    text-shadow: 3px 3px black;
+    padding-top: 10px;
+}
+.title{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    margin-top: 0px;
+    font-weight: 400;
+}
+.btn{
+    background-color:var(--second-color);
+    width:100px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: #f8c44f;
+    font-weight: 700;
+    cursor: pointer;
+}
+h2{
+    margin: 30px 0 20px 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-icons{
+    margin-left: 589px;
+}
+.header-icons i{
+    color: var(--main-color-dark);
+    font-size: 35px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* bio */
+img{
+    display:block;
+    width:175px;
+    height:175px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 5px solid #3a505f;
+}
+.bio-text{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 2;
+    text-align: justify;
+    text-indent: 5%;
+}
+/* menu */
+nav{
+    background-color:var(--main-color);
+    padding: 5px;
+    text-align: center;
+}
+a{
+    background-color: #2d94d1;
+    color: white;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+}
+a:hover{
+    background-color:var(--main-color-dark);
+}
+/* About */
+ul{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-position: inside;
+    text-align: center;
+}
+ol{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-position: inside;
+    text-align: center;
+}
+.training li{
+    font-size: 18px;
+    list-style: lower-roman;
+    list-style-position: inside;
+    margin-left: 520px;
+    line-height: 2;
+    text-align: justify;
+}
+.education li{
+    font-size: 18px;
+    list-style: disc; 
+    list-style-position: inside;
+    margin-left: 520px;
+    line-height: 2;
+    text-align: justify;
+}
+.certifications li{
+    font-size: 18px;
+    list-style: decimal;
+    margin-left: 450px;
+    line-height: 2;
+    text-align: justify;
+    list-style-position: inside;
+}
+h3{
+    text-align: center;
+}
